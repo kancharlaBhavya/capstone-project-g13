@@ -1,0 +1,41 @@
+<!-- Displaying the Title and required buttons -->
+<header>
+  <mat-toolbar>
+    <mat-toolbar-row style="padding-left: 0%;">
+      <img style="height: 80px; margin-top:15px; padding-left: 0px;" src="/assets/logo.png" alt="logo">
+      <!--for shop for home button-->
+      <h2><button style="padding: 0;border: none;background: none;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: white;" routerLink="products"><strong>Shop For Home</strong></button></h2>
+    </mat-toolbar-row>
+    
+    <mat-toolbar-row>
+      
+      <!--user button-->
+      <button mat-raised-button style="margin-left:35px;"  routerLink="userlogin" class="click" [disabled]="userService.isLoggedIn()">User</button>
+
+      <!--admin button-->
+      <button mat-raised-button style="margin-left:35px"  routerLink="adminlogin" class="click" [disabled]="userService.isLoggedIn()">Admin</button>
+
+      <!--search bar-->
+      <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)"
+      placeholder="Search Products">
+        <button mat-raised-button style="margin-right:20px" *ngIf="userService.isAdminLoggedIn()" routerLink="admin"
+          class="btn btn-outline-info" [disabled]="!userService.isAdminLoggedIn()">
+          <img src="/assets/setting.png" alt="img" class="png" />
+        </button>
+      <div>
+        <button mat-raised-button style="margin-right:20px" *ngIf="userService.isLoggedIn()" routerLink="wishlist"
+          class="btn btn-outline-warning" [disabled]="userService.isAdminLoggedIn()">Wishlist
+        </button>
+      </div>
+      <div>
+        <button mat-raised-button style="margin-right:20px" *ngIf="userService.isLoggedIn()" routerLink="cart"
+          class="btn btn-outline-info" [disabled]="userService.isAdminLoggedIn()">
+          <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+          <div style="font-size: 10px;" class="badge bg-danger"></div>
+        </button>
+      </div>
+      <a mat-raised-button style="margin-right:20px" class="nav-link" routerLink="" *ngIf="service.loggedIn()"
+        (click)="service.logoutUser()" color="warn">logout</a>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</header>

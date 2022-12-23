@@ -1,0 +1,66 @@
+.form-control {
+  border-radius: 3px;
+  width: 800px;
+  margin-left: 20px;
+}
+.search-icon{
+    position: absolute;
+    z-index: 10;
+    right: 53%;
+    top: 20px;     
+}
+h2{
+  flex: 1 1 auto;
+  text-align: left;
+  align-items: baseline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(237, 228, 228);
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.mat-raised-button {
+margin-left: 40px;
+}
+.mx-2 {
+   color:#fff;
+   font-size: 20px;
+}
+.mat-toolbar{
+background-color: rgb(11, 10, 10);
+}
+
+.png{
+width:20%;
+height:10%;
+}
+
+.mat-toolbar-row{
+margin-top: 10px;
+}
+
+/* hover*/
+
+.click {
+width: 50px;
+height: 30px;
+cursor: pointer;
+align-items: center;
+text-align: center;
+font-size: 15px;
+font-weight:lighter;
+color: rgb(9, 9, 9);
+background: white;
+border: 0px solid rgb(44, 41, 221);
+box-shadow: 2px 2px 0 rgb(56, 45, 216),
+  -2px -2px 0 rgb(236, 226, 82),
+  -2px 2px 0 black,
+  2px -2px 0 black;
+transition: 500ms ease-in-out;
+}
+
+.click:hover {
+box-shadow: 20px 5px 0 rgb(184, 35, 35), -20px -5px 0 rgb(83, 53, 216);
+}
+
+

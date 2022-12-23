@@ -1,0 +1,40 @@
+productId,productName,productPrice,productStock,productDescription,productUrl,categoryType
+iphone_13pro,Iphone 13 pro,"1,18,990",100,apple Iphone 13 pro max,/assets/data/iphone_13pro.jpg,2
+iphone_12mini,Iphone 12 Mini,"59,999",100,apple Iphone 12 mini,/assets/data/iphone_12mini.jpg,2
+iphone_13mini,Iphone 13Mini,"68,999",100,apple Iphone 13mini,/assets/data/iphone_13mini.jpg,2
+Iphone_se,Iphone SE,"38,999",100,apple Iphone SE,/assets/data/iphone_se.jpg,2
+iphone_12,Iphone 12,"63,999",100,apple Iphone 12,/assets/data/iphone_12.jpg,2
+iphone_11,Iphone_11,"42,999",100,apple Iphone 11,/assets/data/iphone_11.jpg,2
+realmme_9,Realme 9,"24,999",100,realme 9,/assets/data/realme_9.jpg,2
+realme_c31,Realme C31,"8,999",100,realme c31,/assets/data/realme_c31.jpg,2
+redmi_10s,Redmi 10s,"14,999",100,redmi_10s,/assets/data/redmi_10s.jpg,2
+realme_c25,Realme c25,"9,999",100,realme c25,/assets/data/realme_c25.jpg,2
+viva_saree,Viva Saree,"5,000",100,saree with pink flowers,/assets/data/f/viva_saree.jpg,0
+mano_saree,Mano Saree,"7,000",100,saree ,/assets/data/f/mano_saree.jpg,0
+icool_skullcap,Icool Skull Cap,350,100,skull cap,/assets/data/f/icool_skullcap.jpg,0
+fano_shirt,Fano shirt,500,100,fano shirt,/assets/data/f/fano_shirt.jpg,0
+eye_tshirt,Eye Tshirt,700,100,eye tshirt,/assets/data/f/eye_tshirt.jpg,0
+tr_tshirt,TR Tshirt,500,100,tr_tshirt,/assets/data/f/tr_tshirt.jpg,0
+1+,Oneplus tv,"65,999",100,oneplus_tv,/assets/data/e/1+.jpg,1
+mi_5a,Mi 5A tv,"45,999",100,Mitv_5a,/assets/data/e/mi_5a.jpg,1
+g_mouse,G Mouse,300,100,G_mouse,/assets/data/e/g_mouse.jpg,1
+phip_hair_dryer,Phip Hair Drayer,500,100,Phip_hair drayer,/assets/data/e/phip_hair.jpg,1
+nova_trimmer,Nova Trimmer,499,100,nova_trimmer,/assets/data/e/nova_trim.jpg,1
+Mi_4x_tv,Mi 4X Tv,"75,999",100,mitv_4x,/assets/data/e/mi_4x.jpg,1
+word power,Word Power book,123,100,word_power book,/assets/data/b/1.jpg,3
+Upsc book,UPSE book,385,100,upse book,/assets/data/b/2.jpg,3
+QA_book,QA Book,477,100,qa book,/assets/data/b/3.jpg,3
+mb_weight_gainer,MB Weight Gainer,300,100,mb weight gainer,/assets/data/g/1.jpg,4
+Combo_pack,Combo Pack,299,100,combo pack,/assets/data/g/2.jpg,4
+Gulab_jamun,Gulab jamun,399,100,gulab jamun,/assets/data/g/3.jpg,4
+Combo_pack,Combo Pack,499,100,combo pack,/assets/data/g/4.jpg,4
+banana_chips,banana Chips,299,100,banana pack,/assets/data/g/5.jpg,4
+Combo_pack,Combo Pack,599,100,combo pack,/assets/data/g/6.jpg,4
+shiva_idol,Shiva statue,399,100,shiva ideal,/assets/data/h/1.jpg,5
+Kid_statue,Kid Statue,299,199,kid statues,/assets/data/h/2.jpg,5
+budha_statue,Budha Statue,499,100,budha statues,/assets/data/h/3.jpg,5
+Hanging,Hanginng,565,100,hangging,/assets/data/h/4.jpg,5
+metal ideal,metal ideal,699,100,metal ideal,/assets/data/h/5.jpg,5
+yoga_mat,Yoga Mat,399,100,mat,/assets/data/s/1.jpg,6
+Mavis_shuttle,Mavis Shuttle,499,100,mavis_shuttle,/assets/data/s/2.jpg,6
+Nivia_football,Nivia Football,399,100,nivia football,/assets/data/s/3.jpg,6
